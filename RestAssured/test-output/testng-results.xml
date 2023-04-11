@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31211" started-at="2023-03-07T19:34:26 IST" finished-at="2023-03-07T19:34:57 IST">
+  <suite name="Default suite" duration-ms="11137" started-at="2023-04-10T10:01:04 IST" finished-at="2023-04-10T10:01:15 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31211" started-at="2023-03-07T19:34:26 IST" finished-at="2023-03-07T19:34:57 IST">
-      <class name="com.RestAssured.TestUsingPojo.CreateAirlineDataPojoTest">
-        <test-method status="PASS" signature="createAirline()[pri:1, instance:com.RestAssured.TestUsingPojo.CreateAirlineDataPojoTest@131276c2]" name="createAirline" duration-ms="30904" started-at="2023-03-07T19:34:26 IST" description="To verify airlines post api call" finished-at="2023-03-07T19:34:57 IST">
+    <test name="Default test" duration-ms="11137" started-at="2023-04-10T10:01:04 IST" finished-at="2023-04-10T10:01:15 IST">
+      <class name="com.RestAssured.TestUsingLombok.CreateAirlineTestLombok">
+        <test-method status="PASS" signature="createAirlineAndVerifyResponse()[pri:0, instance:com.RestAssured.TestUsingLombok.CreateAirlineTestLombok@184f6be2]" name="createAirlineAndVerifyResponse" duration-ms="8385" started-at="2023-04-10T10:01:04 IST" finished-at="2023-04-10T10:01:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAirlineAndVerifyResponse -->
+        <test-method status="PASS" signature="createPassengerTest()[pri:0, instance:com.RestAssured.TestUsingLombok.CreateAirlineTestLombok@184f6be2]" name="createPassengerTest" duration-ms="1325" started-at="2023-04-10T10:01:13 IST" finished-at="2023-04-10T10:01:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPassengerTest -->
+        <test-method status="PASS" signature="createAirline()[pri:1, instance:com.RestAssured.TestUsingLombok.CreateAirlineTestLombok@184f6be2]" name="createAirline" duration-ms="1282" started-at="2023-04-10T10:01:14 IST" description="To verify airlines post api call" finished-at="2023-04-10T10:01:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAirline -->
-      </class> <!-- com.RestAssured.TestUsingPojo.CreateAirlineDataPojoTest -->
+      </class> <!-- com.RestAssured.TestUsingLombok.CreateAirlineTestLombok -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

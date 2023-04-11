@@ -1,0 +1,87 @@
+{
+  "$id": "root",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "_id": {
+      "type": "string",
+      "default": "641001c97b1ed732290cf010",
+      "examples": [
+        "641001c97b1ed732290cf010"
+      ]
+    },
+    "id": {
+      "type": "integer",
+      "default": 1012121,
+      "examples": [
+        1012121
+      ]
+    },
+    "name": {
+      "type": "string",
+      "default": "Sri Lankan Airways-India",
+      "examples": [
+        "Sri Lankan Airways-India"
+      ]
+    },
+    "country": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string",
+      "default": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png",
+      "examples": [
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Qatar_Airways_Logo.svg/sri_lanka.png"
+      ]
+    },
+    "slogan": {
+      "type": "string",
+      "default": "From Sri Lanka",
+      "examples": [
+        "From Sri Lanka"
+      ]
+    },
+    "head_quaters": {
+      "type": "string",
+      "default": "Katunayake, Sri Lanka",
+      "examples": [
+        "Katunayake, Sri Lanka"
+      ]
+    },
+    "website": {
+      "type": "string",
+      "default": "www.srilankaairways.com",
+      "examples": [
+        "www.srilankaairways.com"
+      ]
+    },
+    "established": {
+      "type": "string",
+      "default": "1990",
+      "examples": [
+        "1990"
+      ]
+    },
+    "__v": {
+      "type": "integer",
+      "default": 0,
+      "examples": [
+        0
+      ]
+    }
+  },
+  "required": [
+    "_id",
+    "id",
+    "name",
+    "country",
+    "logo",
+    "slogan",
+    "website",
+    "established",
+    "__v"
+  ],
+  "allOf": [
+    {"not": {"required": ["head_quaters"]}}],
+  "additionalProperties": false
+}

@@ -1,0 +1,63 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome10",
+    "definitions": {
+        "Welcome10": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "_id": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "country": {
+                    "type": "string"
+                },
+                "logo": {
+                    "type": "string",
+                    "format": "uri",
+                    "qt-uri-protocols": [
+                        "https"
+                    ],
+                    "qt-uri-extensions": [
+                        ".png"
+                    ]
+                },
+                "slogan": {
+                    "type": "string"
+                },
+                "head_quaters": {
+                    "type": "string"
+                },
+                "website": {
+                    "type": "string"
+                },
+                "established": {
+                    "type": "string",
+                    "format": "integer"
+                },
+                "__v": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "__v",
+                "_id",
+                "country",
+                "established",
+                "head_quaters",
+                "id",
+                "logo",
+                "name",
+                "slogan",
+                "website"
+            ],
+            "title": "Welcome10"
+        }
+    }
+}

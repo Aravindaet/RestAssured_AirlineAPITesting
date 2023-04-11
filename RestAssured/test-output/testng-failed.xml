@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.RestAssured.TestUsingPojo.CreateAirlineDataPojoTest">
+      <class name="com.RestAssured.TestUsingLombok.CreateAirlineTestLombok">
         <methods>
-          <include name="getAllAirlineDetails"/>
+          <include name="createAirlineAndVerifyResponse"/>
         </methods>
-      </class> <!-- com.RestAssured.TestUsingPojo.CreateAirlineDataPojoTest -->
+      </class> <!-- com.RestAssured.TestUsingLombok.CreateAirlineTestLombok -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
