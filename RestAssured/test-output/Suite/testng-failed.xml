@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.FakeAPI_Passengers.AirlinePassengerEndToEndTests">
+        <methods>
+          <include name="createAirline"/>
+          <include name="createPassenger"/>
+        </methods>
+      </class> <!-- com.FakeAPI_Passengers.AirlinePassengerEndToEndTests -->
+      <class name="com.RestAssured.TestUsingPojo.CreateAirlineDataPojoTest">
+        <methods>
+          <include name="getAllAirlineDetails"/>
+        </methods>
+      </class> <!-- com.RestAssured.TestUsingPojo.CreateAirlineDataPojoTest -->
+      <class name="com.FakeAPI.test.AilinePassengers.PassengerDataTest">
+        <methods>
+          <include name="getPassengerDetail"/>
+          <include name="updatePassengerDetails"/>
+          <include name="createPassenger"/>
+          <include name="deletePassenger"/>
+          <include name="updatePassengerName"/>
+        </methods>
+      </class> <!-- com.FakeAPI.test.AilinePassengers.PassengerDataTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

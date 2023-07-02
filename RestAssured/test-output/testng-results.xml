@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11137" started-at="2023-04-10T10:01:04 IST" finished-at="2023-04-10T10:01:15 IST">
+  <suite name="Suite" duration-ms="15264" started-at="2023-06-26T12:33:24 IST" finished-at="2023-06-26T12:33:39 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11137" started-at="2023-04-10T10:01:04 IST" finished-at="2023-04-10T10:01:15 IST">
-      <class name="com.RestAssured.TestUsingLombok.CreateAirlineTestLombok">
-        <test-method status="PASS" signature="createAirlineAndVerifyResponse()[pri:0, instance:com.RestAssured.TestUsingLombok.CreateAirlineTestLombok@184f6be2]" name="createAirlineAndVerifyResponse" duration-ms="8385" started-at="2023-04-10T10:01:04 IST" finished-at="2023-04-10T10:01:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createAirlineAndVerifyResponse -->
-        <test-method status="PASS" signature="createPassengerTest()[pri:0, instance:com.RestAssured.TestUsingLombok.CreateAirlineTestLombok@184f6be2]" name="createPassengerTest" duration-ms="1325" started-at="2023-04-10T10:01:13 IST" finished-at="2023-04-10T10:01:14 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createPassengerTest -->
-        <test-method status="PASS" signature="createAirline()[pri:1, instance:com.RestAssured.TestUsingLombok.CreateAirlineTestLombok@184f6be2]" name="createAirline" duration-ms="1282" started-at="2023-04-10T10:01:14 IST" description="To verify airlines post api call" finished-at="2023-04-10T10:01:15 IST">
+    <test name="Test" duration-ms="15264" started-at="2023-06-26T12:33:24 IST" finished-at="2023-06-26T12:33:39 IST">
+      <class name="com.RestAssured.TestUsingPojo.CreateAirlineDataPojoTest">
+        <test-method status="PASS" signature="createAirline()[pri:1, instance:com.RestAssured.TestUsingPojo.CreateAirlineDataPojoTest@56aac163]" name="createAirline" duration-ms="7876" started-at="2023-06-26T12:33:24 IST" description="To verify airlines post api call" finished-at="2023-06-26T12:33:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAirline -->
-      </class> <!-- com.RestAssured.TestUsingLombok.CreateAirlineTestLombok -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="duplicateAirlineCreation()[pri:2, instance:com.RestAssured.TestUsingPojo.CreateAirlineDataPojoTest@56aac163]" name="duplicateAirlineCreation" duration-ms="1351" started-at="2023-06-26T12:33:32 IST" description="To create new airline using duplicate airline id" finished-at="2023-06-26T12:33:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateAirlineCreation -->
+        <test-method status="PASS" signature="getAirlineUsingAirlineId()[pri:3, instance:com.RestAssured.TestUsingPojo.CreateAirlineDataPojoTest@56aac163]" name="getAirlineUsingAirlineId" duration-ms="1250" started-at="2023-06-26T12:33:33 IST" description="To get the airline details of a specific airline id" finished-at="2023-06-26T12:33:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAirlineUsingAirlineId -->
+        <test-method status="PASS" signature="getAllAirlineDetails()[pri:4, instance:com.RestAssured.TestUsingPojo.CreateAirlineDataPojoTest@56aac163]" name="getAllAirlineDetails" duration-ms="4602" started-at="2023-06-26T12:33:34 IST" description="To get all the airline details" finished-at="2023-06-26T12:33:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllAirlineDetails -->
+      </class> <!-- com.RestAssured.TestUsingPojo.CreateAirlineDataPojoTest -->
+      <class name="com.AravindaLabs.test.day2.PostDataCreation">
+        <test-method status="PASS" signature="testPostUsingHashMap()[pri:0, instance:com.AravindaLabs.test.day2.PostDataCreation@1f7030a6]" name="testPostUsingHashMap" duration-ms="5" started-at="2023-06-26T12:33:39 IST" finished-at="2023-06-26T12:33:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUsingHashMap -->
+      </class> <!-- com.AravindaLabs.test.day2.PostDataCreation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
